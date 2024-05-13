@@ -1,5 +1,6 @@
 package br.com.myapp
 
+import Relatorios
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
@@ -22,17 +23,15 @@ class Tela_incial : AppCompatActivity() {
         navEntreTelas()
     }
 
-
-    @SuppressLint("MissingSuperCall")  // Não deixo o usuario voltar para a tela anterior
+    @SuppressLint("MissingSuperCall")
     override fun onBackPressed() {
-        Toast.makeText(this, "Não é possível voltar para a tela de cadastro", Toast.LENGTH_SHORT)
-            .show()
+        Toast.makeText(this, "Não é possível voltar para a tela de cadastro", Toast.LENGTH_SHORT).show()
     }
 
     private fun navEntreTelas() {
         binding.textSair.setOnClickListener {
             auth.signOut()
-            finish() // Fecha todas as atividades e retorna ao login
+            finish()
         }
 
         binding.registrarPonto.setOnClickListener {
@@ -43,8 +42,9 @@ class Tela_incial : AppCompatActivity() {
             val calendario = Intent(this, calendario::class.java)
             startActivity(calendario)
         }
-
+        binding.EnviarRelatorio.setOnClickListener {
+            val relatorios = Intent(this, Relatorios::class.java)
+            startActivity(relatorios)
+        }
     }
 }
-
-

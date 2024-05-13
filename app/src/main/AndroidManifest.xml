@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".Relatorios"
+            android:exported="false" />
+        <activity
             android:name=".LessonAdapter"
             android:exported="false" />
         <activity
@@ -23,9 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".calendario"
-            android:exported="false" />
-        <activity
-            android:name=".Relatorios"
             android:exported="false" />
         <activity
             android:name=".Registrar_ponto"
