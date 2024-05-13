@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calendário de Aulas</string>
+    <string-array name="days_of_week">
+        <item>Domingo</item>
+        <item>Segunda-Feira</item>
+        <item>Terça-Feira</item>
+        <item>Quarta-Feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-Feira</item>
+        <item>Sábado</item>
+    </string-array>
+</resources>

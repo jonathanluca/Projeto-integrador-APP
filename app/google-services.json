@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3545874122",
+    "project_id": "sistema-de-cadastro-1ca85",
+    "storage_bucket": "sistema-de-cadastro-1ca85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3545874122:android:5077c5b8bbbcb5c4283e33",
+        "android_client_info": {
+          "package_name": "br.com.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkLy3NQF4_1u-lGv_EgNrPtovPn6wLbNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
