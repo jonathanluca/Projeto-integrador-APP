@@ -1,13 +1,13 @@
+package br.com.myapp
+
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.google.firebase.database.FirebaseDatabase
-import br.com.myapp.R
 import br.com.myapp.databinding.ActivityRelatorios2Binding
+import com.google.firebase.database.FirebaseDatabase
 
 class Relatorios : AppCompatActivity() {
     private lateinit var binding: ActivityRelatorios2Binding

@@ -1,6 +1,5 @@
 package br.com.myapp
 
-import Relatorios
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
@@ -42,7 +41,7 @@ class Tela_incial : AppCompatActivity() {
             val calendario = Intent(this, calendario::class.java)
             startActivity(calendario)
         }
-        binding.EnviarRelatorio.setOnClickListener {
+        binding.EnvRelatorio.setOnClickListener {
             val relatorios = Intent(this, Relatorios::class.java)
             startActivity(relatorios)
         }
